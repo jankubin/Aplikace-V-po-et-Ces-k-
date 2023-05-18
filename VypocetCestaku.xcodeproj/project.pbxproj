@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		113FB88F2A150F6A0078EFA3 /* VypocetCestakuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FB88E2A150F6A0078EFA3 /* VypocetCestakuApp.swift */; };
-		113FB8912A150F6A0078EFA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FB8902A150F6A0078EFA3 /* ContentView.swift */; };
 		113FB8932A150F6B0078EFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113FB8922A150F6B0078EFA3 /* Assets.xcassets */; };
 		113FB8962A150F6B0078EFA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113FB8952A150F6B0078EFA3 /* Preview Assets.xcassets */; };
+		113FB89D2A150FA90078EFA3 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FB89C2A150FA90078EFA3 /* FirstView.swift */; };
+		113FB89F2A150FD80078EFA3 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113FB89E2A150FD80078EFA3 /* FirstViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		113FB88B2A150F6A0078EFA3 /* VypocetCestaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VypocetCestaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		113FB88E2A150F6A0078EFA3 /* VypocetCestakuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VypocetCestakuApp.swift; sourceTree = "<group>"; };
-		113FB8902A150F6A0078EFA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		113FB8922A150F6B0078EFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		113FB8952A150F6B0078EFA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		113FB89C2A150FA90078EFA3 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		113FB89E2A150FD80078EFA3 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				113FB88E2A150F6A0078EFA3 /* VypocetCestakuApp.swift */,
-				113FB8902A150F6A0078EFA3 /* ContentView.swift */,
+				113FB89C2A150FA90078EFA3 /* FirstView.swift */,
+				113FB89E2A150FD80078EFA3 /* FirstViewModel.swift */,
 				113FB8922A150F6B0078EFA3 /* Assets.xcassets */,
 				113FB8942A150F6B0078EFA3 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				113FB8912A150F6A0078EFA3 /* ContentView.swift in Sources */,
+				113FB89D2A150FA90078EFA3 /* FirstView.swift in Sources */,
 				113FB88F2A150F6A0078EFA3 /* VypocetCestakuApp.swift in Sources */,
+				113FB89F2A150FD80078EFA3 /* FirstViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +268,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VypocetCestaku/Preview Content\"";
@@ -293,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VypocetCestaku/Preview Content\"";
